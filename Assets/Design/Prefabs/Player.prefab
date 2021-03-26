@@ -103,7 +103,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 3
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -126,7 +126,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.64, y: 0.64}
+    oldSize: {x: 1, y: 1}
     newSize: {x: 0.64, y: 0.64}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -149,8 +149,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MoveSpeed: 10
   MaxHealth: 3
-  JumpHeight: 5
-  MaxNumberOfJumps: 2
+  JumpHeight: 7
+  MaxNumberOfJumps: 1
   JumpKey: 32
   SlideKey: 304
 --- !u!95 &22022183816750200
@@ -295,11 +295,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ab4943587f011748bb7f54221d917e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TimeBetweenSteps: 0.33
+  TimeBetweenSteps: 0.5
   audioClips:
-  - {fileID: 8300000, guid: 903f48b2bd555ce4891f11725e8d33a8, type: 3}
-  - {fileID: 8300000, guid: e22c1c90a49244d4daa6dc82b1a8a843, type: 3}
-  - {fileID: 8300000, guid: a8bf33d78bbe93a40949bedc4a027fa9, type: 3}
-  - {fileID: 8300000, guid: b43da57625ab8c647b430ec1b5783765, type: 3}
-  - {fileID: 8300000, guid: e0f551d245e699f428cf80d4e476beb9, type: 3}
-  - {fileID: 8300000, guid: 67b4dfc346b14e94baa5285687b7698f, type: 3}
+  - {fileID: 8300000, guid: bda84f8e68cdfd44b8ea45856507c2e2, type: 3}
+  - {fileID: 8300000, guid: 2cd6b28e3307f5d4bbd1b224e3e8ab12, type: 3}
+  - {fileID: 8300000, guid: 4a636aa20b5a5a146bfcf5f03acd5df4, type: 3}
+  - {fileID: 8300000, guid: 92beeac955d50bc4880322c52a28d7a1, type: 3}
+  - {fileID: 8300000, guid: 42c1861fcd1b3804b890e8873112d9f5, type: 3}
+  - {fileID: 8300000, guid: 2acbd4a9c20dd694589ce825e14c708e, type: 3}

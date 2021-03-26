@@ -21,6 +21,12 @@ public class RandomSpawner : MonoBehaviour
     // Whether to align object spawn positions to grid
     public bool AlignSpawnPosition = false;
 
+    //new code by Turin
+    [Tooltip("do you want the obstacle  to appear in one line square?")]
+    public bool onlyOneSquareOfSpawn = false;
+
+    Vector3 spawnPosition;
+
     // Object prefabs and spawn chances
     public GameObject Object1Prefab = null;
     public int Object1SpawnChance = 1;
@@ -63,14 +69,25 @@ public class RandomSpawner : MonoBehaviour
         // Roll die to determine which object to spawn
         int dieRoll = Random.Range(1, totalChance + 1);
 
-        // Determine spawn position
-        Vector3 spawnPosition = transform.position 
-            + new Vector3(0, Random.Range(0, transform.localScale.y), 0);
+        //new code by Turin
+        //checks to see if the object it to spawn in a postion on the y axis
+        if (onlyOneSquareOfSpawn)
+        {
+            // Determine spawn position
+            spawnPosition = transform.position
+                + new Vector3(0, 0, 0);
+        }
+        else
+        {
+            // Determine spawn position
+            spawnPosition = transform.position 
+                + new Vector3(0, Random.Range(0, transform.localScale.y), 0);
 
+        }
         GameObject spawnedObject = null;
 
         // Align to grid
-        if(AlignSpawnPosition)
+        if (AlignSpawnPosition)
         {
             spawnPosition.x = Mathf.Floor(spawnPosition.x);
             spawnPosition.y = Mathf.Floor(spawnPosition.y) + 0.5f;

@@ -16,7 +16,7 @@ using UnityEngine;
 
 public class Prop : MonoBehaviour
 {
-    public float MoveSpeed = 10.0f;
+    public float MoveSpeed = -10.0f;
     public float DestroyXLimit = -10.0f;
     
     float yPosition = 0.0f;

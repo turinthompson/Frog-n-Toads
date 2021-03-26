@@ -8,6 +8,7 @@
 //
 // Copyright © 2021 DigiPen (USA) Corporation.
 //
+// edited by: Turin Thompson
 //------------------------------------------------------------------------------
 
 using System.Collections;
@@ -24,7 +25,7 @@ public class RandomSpawner : MonoBehaviour
     //new code by Turin
     [Tooltip("do you want the obstacle  to appear in one line square?")]
     public bool onlyOneSquareOfSpawn = false;
-
+    [Tooltip("changes how high the object can get from the spawned space")]
     public float YpostionIncreasedHeight = 0;
 
     Vector3 spawnPosition;

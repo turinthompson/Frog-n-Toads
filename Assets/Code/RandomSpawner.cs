@@ -25,6 +25,8 @@ public class RandomSpawner : MonoBehaviour
     [Tooltip("do you want the obstacle  to appear in one line square?")]
     public bool onlyOneSquareOfSpawn = false;
 
+    public float YpostionIncreasedHeight = 0;
+
     Vector3 spawnPosition;
 
     // Object prefabs and spawn chances
@@ -81,7 +83,7 @@ public class RandomSpawner : MonoBehaviour
         {
             // Determine spawn position
             spawnPosition = transform.position 
-                + new Vector3(0, Random.Range(0, transform.localScale.y), 0);
+                + new Vector3(0, Random.Range(0, transform.localScale.y + YpostionIncreasedHeight), 0);
 
         }
         GameObject spawnedObject = null;

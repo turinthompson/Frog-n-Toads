@@ -1,0 +1,1061 @@
+fileFormatVersion: 2
+guid: ccee7b66d97d01d4c85fc96c8e66c006
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2915338113461796211
+    second: Ground Tileset (1)_0
+  - first:
+      213: -864214042706593495
+    second: Ground Tileset (1)_1
+  - first:
+      213: -6964172434728013025
+    second: Ground Tileset (1)_2
+  - first:
+      213: -3814732373856410932
+    second: Ground Tileset (1)_3
+  - first:
+      213: -861708935585747032
+    second: Ground Tileset (1)_4
+  - first:
+      213: 646171439381095054
+    second: Ground Tileset (1)_5
+  - first:
+      213: 1714079699367045284
+    second: Ground Tileset (1)_6
+  - first:
+      213: 8130375712847463977
+    second: Ground Tileset (1)_7
+  - first:
+      213: 3593135416084566493
+    second: Ground Tileset (1)_8
+  - first:
+      213: -5739923046422314747
+    second: Ground Tileset (1)_9
+  - first:
+      213: 3604536582344007805
+    second: Ground Tileset (1)_10
+  - first:
+      213: 5325048407295428891
+    second: Ground Tileset (1)_11
+  - first:
+      213: 8474453185787555873
+    second: Ground Tileset (1)_12
+  - first:
+      213: 8534981498264028168
+    second: Ground Tileset (1)_13
+  - first:
+      213: 5530659824388420471
+    second: Ground Tileset (1)_14
+  - first:
+      213: 9214309545580077817
+    second: Ground Tileset (1)_15
+  - first:
+      213: 7908629810640563109
+    second: Ground Tileset (1)_16
+  - first:
+      213: 2557202748861141627
+    second: Ground Tileset (1)_17
+  - first:
+      213: -7187332644526969924
+    second: Ground Tileset (1)_18
+  - first:
+      213: -8970872985910598227
+    second: Ground Tileset (1)_19
+  - first:
+      213: 2643693200418503718
+    second: Ground Tileset (1)_20
+  - first:
+      213: 7643627793761973365
+    second: Ground Tileset (1)_21
+  - first:
+      213: 2440708482631041079
+    second: Ground Tileset (1)_22
+  - first:
+      213: -5109450586119885920
+    second: Ground Tileset (1)_23
+  - first:
+      213: 6740777316235800515
+    second: Ground Tileset (1)_24
+  - first:
+      213: -3652760852532937893
+    second: Ground Tileset (1)_25
+  - first:
+      213: 5217042191809362151
+    second: Ground Tileset (1)_26
+  - first:
+      213: -2151840701489209686
+    second: Ground Tileset (1)_27
+  - first:
+      213: 327224623892576887
+    second: Ground Tileset (1)_28
+  - first:
+      213: 6296997462984243695
+    second: Ground Tileset (1)_29
+  - first:
+      213: -5235820837480112504
+    second: Ground Tileset (1)_30
+  - first:
+      213: 4216246059405154666
+    second: Ground Tileset (1)_31
+  - first:
+      213: -155291167448498480
+    second: Ground Tileset (1)_32
+  - first:
+      213: 684428406649611227
+    second: Ground Tileset (1)_33
+  - first:
+      213: -3786536723868441434
+    second: Ground Tileset (1)_34
+  - first:
+      213: -2034231805929216374
+    second: Ground Tileset (1)_35
+  - first:
+      213: 6732247910397148263
+    second: Ground Tileset (1)_36
+  - first:
+      213: -7536621173851743405
+    second: Ground Tileset (1)_37
+  - first:
+      213: 6508778609430703523
+    second: Ground Tileset (1)_38
+  - first:
+      213: -5742470306675640758
+    second: Ground Tileset (1)_39
+  - first:
+      213: -6980085602841833854
+    second: Ground Tileset (1)_40
+  - first:
+      213: -7236331403988723602
+    second: Ground Tileset (1)_41
+  - first:
+      213: 6225462292872949436
+    second: Ground Tileset (1)_42
+  - first:
+      213: -8621805469521708965
+    second: Ground Tileset (1)_43
+  - first:
+      213: -8488247386498700991
+    second: Ground Tileset (1)_44
+  - first:
+      213: 8449516647098949098
+    second: Ground Tileset (1)_45
+  - first:
+      213: -577146701614336719
+    second: Ground Tileset (1)_46
+  - first:
+      213: -4115566190448749207
+    second: Ground Tileset (1)_47
+  - first:
+      213: -8594442272862427316
+    second: Ground Tileset (1)_48
+  - first:
+      213: 6771597613646864369
+    second: Ground Tileset (1)_49
+  - first:
+      213: 6746325896135096795
+    second: Ground Tileset (1)_50
+  - first:
+      213: -3657978719725698742
+    second: Ground Tileset (1)_51
+  - first:
+      213: 6390718443879967968
+    second: Ground Tileset (1)_52
+  - first:
+      213: -3646873961697084527
+    second: Ground Tileset (1)_53
+  - first:
+      213: 381853610694070099
+    second: Ground Tileset (1)_54
+  - first:
+      213: -4683630403176725506
+    second: Ground Tileset (1)_55
+  - first:
+      213: -1770153948231242932
+    second: Ground Tileset (1)_56
+  - first:
+      213: -231407334978239450
+    second: Ground Tileset (1)_57
+  - first:
+      213: 2204988818063097534
+    second: Ground Tileset (1)_58
+  - first:
+      213: -7481589286601638612
+    second: Ground Tileset (1)_59
+  - first:
+      213: -6478186474378461143
+    second: Ground Tileset (1)_60
+  - first:
+      213: 258310412065082049
+    second: Ground Tileset (1)_61
+  - first:
+      213: -1807793949124537135
+    second: Ground Tileset (1)_62
+  - first:
+      213: 8020262461509394578
+    second: Ground Tileset (1)_63
+  - first:
+      213: 925529369892263478
+    second: Ground Tileset (1)_64
+  - first:
+      213: 3812562860448201364
+    second: Ground Tileset (1)_65
+  - first:
+      213: 484054800535180537
+    second: Ground Tileset (1)_66
+  - first:
+      213: 1559787640877857805
+    second: Ground Tileset (1)_67
+  - first:
+      213: 2472286999430904457
+    second: Ground Tileset (1)_68
+  - first:
+      213: -6837808820633738055
+    second: Ground Tileset (1)_69
+  - first:
+      213: -4327223944540272570
+    second: Ground Tileset (1)_70
+  - first:
+      213: -4686145563608592411
+    second: Ground Tileset (1)_71
+  - first:
+      213: -144898837653101440
+    second: Ground Tileset (1)_72
+  - first:
+      213: -6520376525299069622
+    second: Ground Tileset (1)_73
+  - first:
+      213: 3909890718742738328
+    second: Ground Tileset (1)_74
+  - first:
+      213: 5369611193846940753
+    second: Ground Tileset (1)_75
+  - first:
+      213: 9093689316498468776
+    second: Ground Tileset (1)_76
+  - first:
+      213: 5932926299352178732
+    second: Ground Tileset (1)_77
+  - first:
+      213: -6747290471573655537
+    second: Ground Tileset (1)_78
+  - first:
+      213: -1167732284701140194
+    second: Ground Tileset (1)_79
+  - first:
+      213: -1136311727549294539
+    second: Ground Tileset (1)_80
+  - first:
+      213: 1672627181390160709
+    second: Ground Tileset (1)_81
+  - first:
+      213: -568395020429854006
+    second: Ground Tileset (1)_82
+  - first:
+      213: 1950832772083685984
+    second: Ground Tileset (1)_83
+  - first:
+      213: 4005437659826983036
+    second: Ground Tileset (1)_84
+  - first:
+      213: 3888186572014303680
+    second: Ground Tileset (1)_85
+  - first:
+      213: -7309613788409626757
+    second: Ground Tileset (1)_86
+  - first:
+      213: 1982168339347676433
+    second: Ground Tileset (1)_87
+  - first:
+      213: -248320745515084594
+    second: Ground Tileset (1)_88
+  - first:
+      213: 5235037470137099737
+    second: Ground Tileset (1)_89
+  - first:
+      213: 5940407087558414854
+    second: Ground Tileset (1)_90
+  - first:
+      213: -3267445257817161963
+    second: Ground Tileset (1)_91
+  - first:
+      213: 1958123483775701390
+    second: Ground Tileset (1)_92
+  - first:
+      213: 8769623142278223627
+    second: Ground Tileset (1)_93
+  - first:
+      213: 4905530715607302425
+    second: Ground Tileset (1)_94
+  - first:
+      213: -6125382189061102212
+    second: Ground Tileset (1)_95
+  - first:
+      213: -4182183484888777308
+    second: Ground Tileset (1)_96
+  - first:
+      213: -2046392707618013773
+    second: Ground Tileset (1)_97
+  - first:
+      213: 2925972511907669091
+    second: Ground Tileset (1)_98
+  - first:
+      213: -1053696887709724858
+    second: Ground Tileset (1)_99
+  - first:
+      213: 1697391303497943486
+    second: Ground Tileset (1)_100
+  - first:
+      213: -2653386907844511034
+    second: Ground Tileset (1)_101
+  - first:
+      213: 3409104002976199709
+    second: Ground Tileset (1)_102
+  - first:
+      213: -8977503830913102196
+    second: Ground Tileset (1)_103
+  - first:
+      213: -6493900139638216570
+    second: Ground Tileset (1)_104
+  - first:
+      213: -5524213733178229001
+    second: Ground Tileset (1)_105
+  - first:
+      213: -2845558549287318546
+    second: Ground Tileset (1)_106
+  - first:
+      213: -1231104085267232452
+    second: Ground Tileset (1)_107
+  - first:
+      213: -5064203054188267426
+    second: Ground Tileset (1)_108
+  - first:
+      213: 7594700309521514533
+    second: Ground Tileset (1)_109
+  - first:
+      213: 8628736927664588752
+    second: Ground Tileset (1)_110
+  - first:
+      213: 2410852526878050522
+    second: Ground Tileset (1)_111
+  - first:
+      213: 8144934242486338910
+    second: Ground Tileset (1)_112
+  - first:
+      213: -6159220770442593931
+    second: Ground Tileset (1)_113
+  - first:
+      213: 5538973840331908690
+    second: Ground Tileset (1)_114
+  - first:
+      213: 7154443485345770161
+    second: Ground Tileset (1)_115
+  - first:
+      213: 557220377693919602
+    second: Ground Tileset (1)_116
+  - first:
+      213: 7302807556215580954
+    second: Ground Tileset (1)_117
+  - first:
+      213: -8195356220154361136
+    second: Ground Tileset (1)_118
+  - first:
+      213: 9148622731211691042
+    second: Ground Tileset (1)_119
+  - first:
+      213: 2510664070815008860
+    second: Ground Tileset (1)_120
+  - first:
+      213: 7060834652988140604
+    second: Ground Tileset (1)_121
+  - first:
+      213: 4247980082680504433
+    second: Ground Tileset (1)_122
+  - first:
+      213: 4808874979067461355
+    second: Ground Tileset (1)_123
+  - first:
+      213: -4743963102332408292
+    second: Ground Tileset (1)_124
+  - first:
+      213: 58206123888831415
+    second: Ground Tileset (1)_125
+  - first:
+      213: 2121855155666947313
+    second: Ground Tileset (1)_126
+  - first:
+      213: 8995923821353177750
+    second: Ground Tileset (1)_127
+  - first:
+      213: -8732583689928968695
+    second: Ground Tileset (1)_128
+  - first:
+      213: 9042495265903829020
+    second: Ground Tileset (1)_129
+  - first:
+      213: 7182445019669231961
+    second: Ground Tileset (1)_130
+  - first:
+      213: 5914533240831704864
+    second: Ground Tileset (1)_131
+  - first:
+      213: 27633161290710905
+    second: Ground Tileset (1)_132
+  - first:
+      213: 742427801875114611
+    second: Ground Tileset (1)_133
+  - first:
+      213: -1967630736393150663
+    second: Ground Tileset (1)_134
+  - first:
+      213: -8250219128762319398
+    second: Ground Tileset (1)_135
+  - first:
+      213: 1201118937695021199
+    second: Ground Tileset (1)_136
+  - first:
+      213: -3806553112916895622
+    second: Ground Tileset (1)_137
+  - first:
+      213: -8424124609365253962
+    second: Ground Tileset (1)_138
+  - first:
+      213: 3645483421424316281
+    second: Ground Tileset (1)_139
+  - first:
+      213: 3710993182082252279
+    second: Ground Tileset (1)_140
+  - first:
+      213: 306034951501122895
+    second: Ground Tileset (1)_141
+  - first:
+      213: 4083827763729372097
+    second: Ground Tileset (1)_142
+  - first:
+      213: 2301413086358540449
+    second: Ground Tileset (1)_143
+  - first:
+      213: -3720495610092459349
+    second: Ground Tileset (1)_144
+  - first:
+      213: -4224206284305208421
+    second: Ground Tileset (1)_145
+  - first:
+      213: -5676744312122734821
+    second: Ground Tileset (1)_146
+  - first:
+      213: -372568901834312872
+    second: Ground Tileset (1)_147
+  - first:
+      213: 4628142790486238982
+    second: Ground Tileset (1)_148
+  - first:
+      213: 5016494723567566692
+    second: Ground Tileset (1)_149
+  - first:
+      213: 7285077597635922093
+    second: Ground Tileset (1)_150
+  - first:
+      213: -5342039223519176389
+    second: Ground Tileset (1)_151
+  - first:
+      213: -434492370247785780
+    second: Ground Tileset (1)_152
+  - first:
+      213: 5287769855939975729
+    second: Ground Tileset (1)_153
+  - first:
+      213: -768648718415069226
+    second: Ground Tileset (1)_154
+  - first:
+      213: 6748026824898497774
+    second: Ground Tileset (1)_155
+  - first:
+      213: -1639944116220759074
+    second: Ground Tileset (1)_156
+  - first:
+      213: -2115462777757767062
+    second: Ground Tileset (1)_157
+  - first:
+      213: 1458133827828981097
+    second: Ground Tileset (1)_158
+  - first:
+      213: 838989298005765794
+    second: Ground Tileset (1)_159
+  - first:
+      213: -5963765959769706899
+    second: Ground Tileset (1)_160
+  - first:
+      213: -9149799882593490431
+    second: Ground Tileset (1)_161
+  - first:
+      213: -6528861779117824732
+    second: Ground Tileset (1)_162
+  - first:
+      213: -3493654701018768913
+    second: Ground Tileset (1)_163
+  - first:
+      213: -1507647572207880359
+    second: Ground Tileset (1)_164
+  - first:
+      213: -2914899265733677975
+    second: Ground Tileset (1)_165
+  - first:
+      213: -8014279258571618876
+    second: Ground Tileset (1)_166
+  - first:
+      213: 5729609742724248171
+    second: Ground Tileset (1)_167
+  - first:
+      213: -3108618213889115883
+    second: Ground Tileset (1)_168
+  - first:
+      213: -5100469378191375249
+    second: Ground Tileset (1)_169
+  - first:
+      213: -7806240276849878700
+    second: Ground Tileset (1)_170
+  - first:
+      213: -7919460654284076083
+    second: Ground Tileset (1)_171
+  - first:
+      213: -963197605189820192
+    second: Ground Tileset (1)_172
+  - first:
+      213: 2266177989144064318
+    second: Ground Tileset (1)_173
+  - first:
+      213: -446700372646655109
+    second: Ground Tileset (1)_174
+  - first:
+      213: -4422956671918045645
+    second: Ground Tileset (1)_175
+  - first:
+      213: -1922764181512360342
+    second: Ground Tileset (1)_176
+  - first:
+      213: 6785359184745688677
+    second: Ground Tileset (1)_177
+  - first:
+      213: 7870846674114222941
+    second: Ground Tileset (1)_178
+  - first:
+      213: 8675547867877520289
+    second: Ground Tileset (1)_179
+  - first:
+      213: 7081941521224214506
+    second: Ground Tileset (1)_180
+  - first:
+      213: 9109516750255106224
+    second: Ground Tileset (1)_181
+  - first:
+      213: -2361962372205801308
+    second: Ground Tileset (1)_182
+  - first:
+      213: -7930456797916118606
+    second: Ground Tileset (1)_183
+  - first:
+      213: 4256858067101066906
+    second: Ground Tileset (1)_184
+  - first:
+      213: -2477192310111551550
+    second: Ground Tileset (1)_185
+  - first:
+      213: 3035765912780643612
+    second: Ground Tileset (1)_186
+  - first:
+      213: 6275494112894489345
+    second: Ground Tileset (1)_187
+  - first:
+      213: -7720870093359305971
+    second: Ground Tileset (1)_188
+  - first:
+      213: -4883033046760979829
+    second: Ground Tileset (1)_189
+  - first:
+      213: -555299930627989497
+    second: Ground Tileset (1)_190
+  - first:
+      213: 7513345516355010407
+    second: Ground Tileset (1)_191
+  - first:
+      213: -4432930654028718614
+    second: Ground Tileset (1)_192
+  - first:
+      213: -6140668571341332592
+    second: Ground Tileset (1)_193
+  - first:
+      213: -5972673170990779731
+    second: Ground Tileset (1)_194
+  - first:
+      213: 5716385578180584954
+    second: Ground Tileset (1)_195
+  - first:
+      213: -7181925347741366705
+    second: Ground Tileset (1)_196
+  - first:
+      213: 252202468805343273
+    second: Ground Tileset (1)_197
+  - first:
+      213: -1081128319145627815
+    second: Ground Tileset (1)_198
+  - first:
+      213: 2600315631205915523
+    second: Ground Tileset (1)_199
+  - first:
+      213: -5093974180379720991
+    second: Ground Tileset (1)_200
+  - first:
+      213: -5781294574047866378
+    second: Ground Tileset (1)_201
+  - first:
+      213: 2150509701570500928
+    second: Ground Tileset (1)_202
+  - first:
+      213: 590764783619406518
+    second: Ground Tileset (1)_203
+  - first:
+      213: 1499857505706743928
+    second: Ground Tileset (1)_204
+  - first:
+      213: -5019718283152485012
+    second: Ground Tileset (1)_205
+  - first:
+      213: 8539140103344967372
+    second: Ground Tileset (1)_206
+  - first:
+      213: -1772410423995124861
+    second: Ground Tileset (1)_207
+  - first:
+      213: 6000381926850700093
+    second: Ground Tileset (1)_208
+  - first:
+      213: -1647404485852677098
+    second: Ground Tileset (1)_209
+  - first:
+      213: -94724039484535998
+    second: Ground Tileset (1)_210
+  - first:
+      213: 4771610155261083744
+    second: Ground Tileset (1)_211
+  - first:
+      213: -4528357412510562825
+    second: Ground Tileset (1)_212
+  - first:
+      213: -6852689674825601938
+    second: Ground Tileset (1)_213
+  - first:
+      213: -1447807819044266683
+    second: Ground Tileset (1)_214
+  - first:
+      213: 2050303268834180576
+    second: Ground Tileset (1)_215
+  - first:
+      213: 3725058592848996658
+    second: Ground Tileset (1)_216
+  - first:
+      213: 7657570989822363851
+    second: Ground Tileset (1)_217
+  - first:
+      213: 3798365709404789116
+    second: Ground Tileset (1)_218
+  - first:
+      213: 6504630046391822336
+    second: Ground Tileset (1)_219
+  - first:
+      213: -4913670613350062827
+    second: Ground Tileset (1)_220
+  - first:
+      213: -5700962840984010380
+    second: Ground Tileset (1)_221
+  - first:
+      213: 7910653875245604939
+    second: Ground Tileset (1)_222
+  - first:
+      213: -4851187325228551316
+    second: Ground Tileset (1)_223
+  - first:
+      213: -3534653714405113957
+    second: Ground Tileset (1)_224
+  - first:
+      213: 2712016574623065395
+    second: Ground Tileset (1)_225
+  - first:
+      213: 5925997099476922521
+    second: Ground Tileset (1)_226
+  - first:
+      213: 3624982542780340807
+    second: Ground Tileset (1)_227
+  - first:
+      213: -7450510848737510238
+    second: Ground Tileset (1)_228
+  - first:
+      213: -724926665305664093
+    second: Ground Tileset (1)_229
+  - first:
+      213: -2313455860174972852
+    second: Ground Tileset (1)_230
+  - first:
+      213: 1742577784024093608
+    second: Ground Tileset (1)_231
+  - first:
+      213: 625530114566645654
+    second: Ground Tileset (1)_232
+  - first:
+      213: 5408198259766840763
+    second: Ground Tileset (1)_233
+  - first:
+      213: 4073629624277566234
+    second: Ground Tileset (1)_234
+  - first:
+      213: -7465064160180554172
+    second: Ground Tileset (1)_235
+  - first:
+      213: -5600870048115839760
+    second: Ground Tileset (1)_236
+  - first:
+      213: -2873300928384020778
+    second: Ground Tileset (1)_237
+  - first:
+      213: 1500639819227186728
+    second: Ground Tileset (1)_238
+  - first:
+      213: -4301170932982156108
+    second: Ground Tileset (1)_239
+  - first:
+      213: -6744624309467969120
+    second: Ground Tileset (1)_240
+  - first:
+      213: -8759462967153017615
+    second: Ground Tileset (1)_241
+  - first:
+      213: -2962423132295672457
+    second: Ground Tileset (1)_242
+  - first:
+      213: 2262324516874411120
+    second: Ground Tileset (1)_243
+  - first:
+      213: 6625267669397519452
+    second: Ground Tileset (1)_244
+  - first:
+      213: -5044197402175508859
+    second: Ground Tileset (1)_245
+  - first:
+      213: -4649421030892707094
+    second: Ground Tileset (1)_246
+  - first:
+      213: 7673147886369570206
+    second: Ground Tileset (1)_247
+  - first:
+      213: -105952857232731639
+    second: Ground Tileset (1)_248
+  - first:
+      213: 8583903958172696779
+    second: Ground Tileset (1)_249
+  - first:
+      213: -8212780960444729218
+    second: Ground Tileset (1)_250
+  - first:
+      213: 6079006952487928657
+    second: Ground Tileset (1)_251
+  - first:
+      213: -989163849276413492
+    second: Ground Tileset (1)_252
+  - first:
+      213: 7227801551731544192
+    second: Ground Tileset (1)_253
+  - first:
+      213: 8215979225021538382
+    second: Ground Tileset (1)_254
+  - first:
+      213: -462639351033833732
+    second: Ground Tileset (1)_255
+  - first:
+      213: -1922677395681085102
+    second: Ground Tileset (1)_256
+  - first:
+      213: -2036689887199949971
+    second: Ground Tileset (1)_257
+  - first:
+      213: 4407933786298322837
+    second: Ground Tileset (1)_258
+  - first:
+      213: -5534176572226480779
+    second: Ground Tileset (1)_259
+  - first:
+      213: 3925936271855080237
+    second: Ground Tileset (1)_260
+  - first:
+      213: 8995695262471127825
+    second: Ground Tileset (1)_261
+  - first:
+      213: -6179282334280566583
+    second: Ground Tileset (1)_262
+  - first:
+      213: -286732459439435457
+    second: Ground Tileset (1)_263
+  - first:
+      213: -8296330706099667375
+    second: Ground Tileset (1)_264
+  - first:
+      213: -6168946058839030534
+    second: Ground Tileset (1)_265
+  - first:
+      213: -6793753211180639339
+    second: Ground Tileset (1)_266
+  - first:
+      213: 1622254588752886679
+    second: Ground Tileset (1)_267
+  - first:
+      213: 8038391378877262663
+    second: Ground Tileset (1)_268
+  - first:
+      213: -8609630862212456660
+    second: Ground Tileset (1)_269
+  - first:
+      213: -6964923950621050334
+    second: Ground Tileset (1)_270
+  - first:
+      213: -1962970251245557537
+    second: Ground Tileset (1)_271
+  - first:
+      213: 2618131350065031320
+    second: Ground Tileset (1)_272
+  - first:
+      213: 8775888079907969858
+    second: Ground Tileset (1)_273
+  - first:
+      213: 8800848217825242214
+    second: Ground Tileset (1)_274
+  - first:
+      213: 67463659913723123
+    second: Ground Tileset (1)_275
+  - first:
+      213: 7198462859306067595
+    second: Ground Tileset (1)_276
+  - first:
+      213: 6255772835411966212
+    second: Ground Tileset (1)_277
+  - first:
+      213: -3823132676193008847
+    second: Ground Tileset (1)_278
+  - first:
+      213: -5261021927168905974
+    second: Ground Tileset (1)_279
+  - first:
+      213: -3753981545750904509
+    second: Ground Tileset (1)_280
+  - first:
+      213: -5874041849232615382
+    second: Ground Tileset (1)_281
+  - first:
+      213: -5268216369328470722
+    second: Ground Tileset (1)_282
+  - first:
+      213: -4522125575230922222
+    second: Ground Tileset (1)_283
+  - first:
+      213: 5298159772297863868
+    second: Ground Tileset (1)_284
+  - first:
+      213: -6521637074600340675
+    second: Ground Tileset (1)_285
+  - first:
+      213: 8014470003883342512
+    second: Ground Tileset (1)_286
+  - first:
+      213: -1179804464764032931
+    second: Ground Tileset (1)_287
+  - first:
+      213: 6914929734325823073
+    second: Ground Tileset (1)_288
+  - first:
+      213: -7226356652487998644
+    second: Ground Tileset (1)_289
+  - first:
+      213: 3851312844187515602
+    second: Ground Tileset (1)_290
+  - first:
+      213: 4473806140752844322
+    second: Ground Tileset (1)_291
+  - first:
+      213: -5456933197183393583
+    second: Ground Tileset (1)_292
+  - first:
+      213: -1438838719525606134
+    second: Ground Tileset (1)_293
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 640
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ground Tileset (1)_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 640
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37d3c0d619c557820800000000000000
+      internalID: 2915338113461796211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tileset (1)_1
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 640
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 929b19e28e1b104f0800000000000000
+      internalID: -864214042706593495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tileset (1)_2
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 640
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f133871811a4a5f90800000000000000
+      internalID: -6964172434728013025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

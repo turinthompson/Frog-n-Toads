@@ -119,15 +119,8 @@ public class PlayerMovementController : MonoBehaviour
                     + distText + " m";
             }
         }
-        
-        //added by Turin
-        if (distanceScoreCheck >= amountOfDistanceNeeded)
-        {
-            //set distanceScoreCheck to zero so it can be done again
-            distanceScoreCheck = 0;
-            GameManager.currentScore += ScorePerDistance;
-        }
-        
+
+        GameManager.currentScore += MoveSpeed * Time.deltaTime;
     }
 
     private void OnCollisionEnter2D(Collision2D collision)

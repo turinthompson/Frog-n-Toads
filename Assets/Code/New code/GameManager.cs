@@ -16,30 +16,21 @@ using UnityEngine.Events;
 
 public class GameManager : MonoBehaviour
 {
-    private float highestScore = 0;
-    [HideInInspector] static public float currentScore = 0;
-    private float oldScore = 0;
-
+    //private float highestScore = 0;
+    static public float currentScore = 0;
     //adjust
     public static UnityEvent OnScoreUpdate = new UnityEvent();
 
-    // Start is called before the first frame update
-    void Start()
+    public static float Score
     {
-        
-    }
-
-    // FixedUpdate is called once per physic frame
-    void FixedUpdate()
-    {   
-        //currentScore would most likely constanly changed, this is just to it doesn't keep going though
-        if (currentScore > oldScore)
+        get => currentScore;
+        set
         {
-            ScoreText.UpdateScore();
-        }
-        if (currentScore > highestScore)
-        {
-            highestScore = currentScore;
+            if (value != currentScore)
+            {
+                currentScore = value;
+                OnScoreUpdate.Invoke();
+            }
         }
     }
 }

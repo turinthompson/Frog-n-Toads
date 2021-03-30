@@ -5,10 +5,6 @@
  * Note some stuff is grabbed and modified from the platformer game script
  * **************/
 
-///
-//note score function doesn't work yet
-///
-
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

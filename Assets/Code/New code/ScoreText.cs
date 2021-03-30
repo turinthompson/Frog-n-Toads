@@ -7,10 +7,6 @@
  * note change enough
  *************/
 
-///
-//note score function doesn't work yet
-///
-
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

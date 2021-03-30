@@ -10,11 +10,6 @@
 //
 //------------------------------------------------------------------------------
 
-
-///
-//note score function doesn't work yet
-///
-
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
@@ -120,7 +115,7 @@ public class PlayerMovementController : MonoBehaviour
             }
         }
 
-        GameManager.currentScore += MoveSpeed * Time.deltaTime;
+        GameManager.Score += MoveSpeed * Time.deltaTime;
     }
 
     private void OnCollisionEnter2D(Collision2D collision)

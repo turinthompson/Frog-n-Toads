@@ -13,11 +13,11 @@ using UnityEngine.Events;
 public class GameManager : MonoBehaviour
 {
     //private float highestScore = 0;
-    static public float currentScore = 0;
+    static public int currentScore = 0;
     //adjust
     public static UnityEvent OnScoreUpdate = new UnityEvent();
 
-    public static float Score
+    public static int Score
     {
         get => currentScore;
         set

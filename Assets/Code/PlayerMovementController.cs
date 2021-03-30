@@ -35,11 +35,7 @@ public class PlayerMovementController : MonoBehaviour
 
     //added by Turin
     [Tooltip("this is how much the player gets when scoring points")]
-    public float ScorePerDistance = 0.1f;
-    [Tooltip("this is how far the player needs to travel to increase their score")]
-    public float amountOfDistanceNeeded = 0.1f;
-    //sets checks the distance to make sure it is correct
-    private float distanceScoreCheck = 0;
+    public int ScorePerDistance = 1;
 
     // Start is called before the first frame update
     void Start()
@@ -102,9 +98,6 @@ public class PlayerMovementController : MonoBehaviour
         // Update the Distance travelled
         PlayerSaveData.DistanceRun += MoveSpeed * Time.deltaTime;
 
-        //tracks when to score by distance - turin
-        distanceScoreCheck += MoveSpeed * Time.deltaTime;
-
         if (distanceObj != null)
         {
             if (distanceObj.GetComponent<TextMeshProUGUI>() != null)
@@ -114,8 +107,9 @@ public class PlayerMovementController : MonoBehaviour
                     + distText + " m";
             }
         }
-
-        GameManager.Score += MoveSpeed * Time.deltaTime;
+        
+        //gives the player a points
+        GameManager.Score += ScorePerDistance;
     }
 
     private void OnCollisionEnter2D(Collision2D collision)

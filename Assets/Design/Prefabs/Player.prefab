@@ -77,7 +77,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -7202205244531229412, guid: 752ca4f649f73fa4fa96bfe3b04908be,
+  m_Sprite: {fileID: 6486381416615750205, guid: 0ace500d65d795d44bad926851a3b874,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -154,8 +154,7 @@ MonoBehaviour:
   MaxNumberOfJumps: 1
   JumpKey: 32
   SlideKey: 304
-  ScorePerDistance: 0.1
-  amountOfDistanceNeeded: 0.1
+  ScorePerDistance: 0
 --- !u!95 &22022183816750200
 Animator:
   serializedVersion: 3
@@ -166,7 +165,7 @@ Animator:
   m_GameObject: {fileID: 5702680126517417189}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 92b4e7001210f174d8ab15a0749d8a90, type: 2}
+  m_Controller: {fileID: 9100000, guid: a6ed9525b16bb77468fd17890cce3f98, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

@@ -14,7 +14,7 @@ public class Settings : MonoBehaviour
 
     public void setVolume(float volume)
     {
-        audioMixer.SetFloat("volume", volume);
+        audioMixer.SetFloat("Volume", volume);
     }
 
     public void SetFullscreen(bool isFullScreen)

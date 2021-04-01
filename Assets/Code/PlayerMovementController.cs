@@ -10,6 +10,10 @@
 //
 //------------------------------------------------------------------------------
 
+
+// Minor edits done by Orion Gordon on 4/1/2021
+// edited to accomodate the frog's extra animations
+
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
@@ -32,6 +36,8 @@ public class PlayerMovementController : MonoBehaviour
     private GameObject distanceObj = null;
     private float startingX = 0;
     private PlayerAnimationManager animationManager;
+
+    private bool grounded = false;
 
     //added by Turin
     [Tooltip("this is how much the player gets when scoring points")]
@@ -66,8 +72,7 @@ public class PlayerMovementController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        bool grounded = IsGrounded();
-
+        grounded = IsGrounded();
         // Jumping
         if (Input.GetKeyDown(JumpKey))
         {
@@ -144,7 +149,16 @@ public class PlayerMovementController : MonoBehaviour
                 if (healthBarObj != null)
                 {
                     healthBarObj.GetComponent<FeedbackBar>().SetValue(currentHealth);
-                    animationManager.SwitchTo(PlayerAnimationStates.Hurt);
+
+                    // Orion - Added separate hurt states for being on the floor vs in the air
+                    if(grounded)
+                    {
+                        animationManager.SwitchTo(PlayerAnimationStates.RunHurt);
+                    }
+                    else
+                    {
+                        animationManager.SwitchTo(PlayerAnimationStates.JumpHurt);
+                    }
                 }
             }
         }

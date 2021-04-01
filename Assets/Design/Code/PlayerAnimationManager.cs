@@ -10,6 +10,13 @@
 //
 //------------------------------------------------------------------------------
 
+
+
+// Minor edits done by Orion Gordon on 4/1/2021
+// edited to accomodate the frog's extra animations
+
+
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -19,7 +26,12 @@ public enum PlayerAnimationStates
     Run,
     Jump,
     Slide,
-    Hurt
+    Hurt,
+    // added the extra states for getting hurt & dying
+    RunHurt,
+    JumpHurt,
+    RunDeath,
+    JumpDeath
 };
 
 public class PlayerAnimationManager : MonoBehaviour
@@ -43,7 +55,7 @@ public class PlayerAnimationManager : MonoBehaviour
     {
         // Override the animation that should be happening if we are hurt
         CurrInvulnTime -= Time.deltaTime;
-        if (CurrInvulnTime > 0 && CurrentState != PlayerAnimationStates.Hurt)
+        /*if (CurrInvulnTime > 0 && CurrentState != PlayerAnimationStates.Hurt)
         {
             SwitchTo(PlayerAnimationStates.Hurt);
         }
@@ -53,6 +65,24 @@ public class PlayerAnimationManager : MonoBehaviour
             SwitchTo(PreviousState);
         }
 
+        if (CurrInvulnTime > 0 && CurrentState != PlayerAnimationStates.RunHurt)
+        {
+            SwitchTo(PlayerAnimationStates.RunHurt);
+        }
+        if (CurrInvulnTime <= 0 && CurrentState == PlayerAnimationStates.RunHurt)
+        {
+            SwitchTo(PreviousState);
+        }
+
+        if (CurrInvulnTime > 0 && CurrentState != PlayerAnimationStates.JumpHurt)
+        {
+            SwitchTo(PlayerAnimationStates.JumpHurt);
+        }
+        if (CurrInvulnTime <= 0 && CurrentState == PlayerAnimationStates.JumpHurt)
+        {
+            SwitchTo(PreviousState);
+        }
+        */
         PlayCurrentAnimation();
     }
 
@@ -72,7 +102,7 @@ public class PlayerAnimationManager : MonoBehaviour
             return;
         }
       
-        if (CurrentState != PlayerAnimationStates.Hurt && state == PlayerAnimationStates.Hurt)
+        if ((CurrentState != PlayerAnimationStates.Hurt && state == PlayerAnimationStates.Hurt))
         {
             CurrInvulnTime = InvulnTime;
         }
@@ -88,8 +118,8 @@ public class PlayerAnimationManager : MonoBehaviour
             return;
 
         // Debug log for testing purposes - feel free to remove
-        //Debug.Log("PrevState: " + PreviousState.ToString()
-            //+ ", CurrentState: " + CurrentState.ToString());
+        Debug.Log("PrevState: " + PreviousState.ToString()
+            + ", CurrentState: " + CurrentState.ToString());
 
         // Play state based on value of CurrentState
         switch (CurrentState)
@@ -105,6 +135,12 @@ public class PlayerAnimationManager : MonoBehaviour
                 break;
             case PlayerAnimationStates.Hurt:
                 animator.Play("Hurt");
+                break;
+            case PlayerAnimationStates.RunHurt:
+                animator.Play("RunHurt");
+                break;
+            case PlayerAnimationStates.JumpHurt:
+                animator.Play("JumpHurt");
                 break;
         }
     }

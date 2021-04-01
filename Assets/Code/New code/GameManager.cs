@@ -12,7 +12,7 @@ using UnityEngine.Events;
 
 public class GameManager : MonoBehaviour
 {
-    //private float highestScore = 0;
+    static private int highestScore = 0;
     static public int currentScore = 0;
     //adjust
     public static UnityEvent OnScoreUpdate = new UnityEvent();
@@ -26,6 +26,11 @@ public class GameManager : MonoBehaviour
             {
                 currentScore = value;
                 OnScoreUpdate.Invoke();
+            }
+            //set new high score
+            if (currentScore > highestScore)
+            {
+                highestScore = currentScore;
             }
         }
     }

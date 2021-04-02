@@ -1,5 +1,6 @@
 ﻿/**************
- * by Ryan Scheppler
+ * by Ryan S
+ * edited: Turin T
  * date: 1/7/20
  * desc add this to a object with collision, the player should be able to collide with this to get points
  * 

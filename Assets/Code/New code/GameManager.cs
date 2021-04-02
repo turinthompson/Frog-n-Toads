@@ -1,7 +1,8 @@
 ﻿/****************
- * Name: Turin Thompson
+ * Name: Turin T
  * Date: 3/29/2021
  * Desc: tracks things like score and such
+ * 
  * Note some stuff is grabbed and modified from the platformer game script
  * **************/
 
@@ -12,9 +13,11 @@ using UnityEngine.Events;
 
 public class GameManager : MonoBehaviour
 {
+    //get the highscore
     static private int highestScore = 0;
+    //get the players current score
     static public int currentScore = 0;
-    //adjust
+
     public static UnityEvent OnScoreUpdate = new UnityEvent();
 
     public static int Score

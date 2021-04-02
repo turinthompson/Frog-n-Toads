@@ -1,5 +1,6 @@
 ﻿/************
- * Name: Ryan Scheppler
+ * Name: Ryan S
+ * edited: Turin T
  * Date: 1/4/2021
  * Desc: Add this to an object over the actual pause menu objects to turn on and off
  * 

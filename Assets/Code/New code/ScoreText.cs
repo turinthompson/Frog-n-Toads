@@ -1,10 +1,10 @@
 ﻿/*************
- *by Ryan Scheppler
+ * by Ryan S
+ * edited: Turin T
  * date: 1 / 7 / 20
  * desc: add this to a textmeshpro object to control the text and display
  * 
  * note this is from the platfromer game
- * note change enough
  *************/
 
 using System.Collections;

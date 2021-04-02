@@ -98,7 +98,7 @@ MonoBehaviour:
   AlignSpawnPosition: 0
   onlyOneSquareOfSpawn: 0
   YpostionIncreasedHeight: 3
-  Object1Prefab: {fileID: 1337840215144504164, guid: e206d65bff6ce8f48a990ef22becea5a,
+  Object1Prefab: {fileID: 9212563447386125056, guid: adc6bda400b330b449de417ca1f2f124,
     type: 3}
   Object1SpawnChance: 1
   Object2Prefab: {fileID: 3579942158369030605, guid: 3f772474443991c45a2a833989d81e66,

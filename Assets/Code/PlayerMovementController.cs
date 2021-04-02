@@ -150,15 +150,16 @@ public class PlayerMovementController : MonoBehaviour
                 {
                     healthBarObj.GetComponent<FeedbackBar>().SetValue(currentHealth);
 
-                    // Orion - Added separate hurt states for being on the floor vs in the air
-                    if(grounded)
-                    {
-                        animationManager.SwitchTo(PlayerAnimationStates.RunHurt);
-                    }
-                    else
-                    {
-                        animationManager.SwitchTo(PlayerAnimationStates.JumpHurt);
-                    }
+                    
+                }
+                // Orion - Added separate hurt states for being on the floor vs in the air
+                if (grounded)
+                {
+                    animationManager.SwitchTo(PlayerAnimationStates.RunHurt);
+                }
+                else
+                {
+                    animationManager.SwitchTo(PlayerAnimationStates.JumpHurt);
                 }
             }
         }

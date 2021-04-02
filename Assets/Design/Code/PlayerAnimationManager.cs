@@ -55,7 +55,7 @@ public class PlayerAnimationManager : MonoBehaviour
     {
         // Override the animation that should be happening if we are hurt
         CurrInvulnTime -= Time.deltaTime;
-        /*if (CurrInvulnTime > 0 && CurrentState != PlayerAnimationStates.Hurt)
+        if (CurrInvulnTime > 0 && CurrentState != PlayerAnimationStates.Hurt)
         {
             SwitchTo(PlayerAnimationStates.Hurt);
         }
@@ -82,7 +82,7 @@ public class PlayerAnimationManager : MonoBehaviour
         {
             SwitchTo(PreviousState);
         }
-        */
+        
         PlayCurrentAnimation();
     }
 
@@ -102,7 +102,7 @@ public class PlayerAnimationManager : MonoBehaviour
             return;
         }
       
-        if ((CurrentState != PlayerAnimationStates.Hurt && state == PlayerAnimationStates.Hurt))
+        if ((CurrentState != PlayerAnimationStates.Hurt && state == PlayerAnimationStates.Hurt) || (CurrentState != PlayerAnimationStates.RunHurt && state == PlayerAnimationStates.RunHurt) || (CurrentState != PlayerAnimationStates.JumpHurt && state == PlayerAnimationStates.JumpHurt))
         {
             CurrInvulnTime = InvulnTime;
         }
